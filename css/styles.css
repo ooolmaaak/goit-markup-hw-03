@@ -1,9 +1,17 @@
 :root {
 }
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+}
+
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
 }
 
 .link {
@@ -29,6 +37,8 @@ body {
 
 .header {
   background-color: #ffffff;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 .nav-link {
   font-family: "Roboto", sans-serif;
@@ -95,6 +105,7 @@ body {
   color: #ffffff;
   cursor: pointer;
   background-color: #4d5ae5;
+  margin-top: 48px;
 }
 
 .order-button:hover,
@@ -104,6 +115,8 @@ body {
 
 .hero {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .title-main {
@@ -147,26 +160,43 @@ body {
   color: #434455;
 }
 
+.studio-list {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
 /* SERVICES */
 
 .services {
   background-color: #ffffff;
 }
 
+.services-list {
+  padding-bottom: 120px;
+}
+
 /* CONTACTS */
 
 .contacts {
   background-color: #f4f4fd;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 
 .contacts-item {
   background-color: #ffffff;
 }
 
+.title-block {
+  padding-bottom: 72px;
+}
+
 /* FOOTER */
 
 .footer {
   background-color: #2e2f42;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .footer-description {
@@ -188,6 +218,7 @@ body {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   text-transform: uppercase;
+  margin-bottom: 17px;
 }
 
 .footer-logo-text {
@@ -223,4 +254,20 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+}
+
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
 }
