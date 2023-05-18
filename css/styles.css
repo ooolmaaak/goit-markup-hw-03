@@ -35,11 +35,26 @@ body {
   overflow: hidden;
 } */
 
+/* HEADER */
+
 .header {
   background-color: #ffffff;
   margin-top: 25px;
   margin-bottom: 25px;
+  display: flex;
 }
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
 .nav-link {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -55,8 +70,10 @@ body {
   color: #404bbf;
 }
 
-/* HEADER */
-
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
 .header-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -67,6 +84,7 @@ body {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .header-logo-text {
@@ -92,20 +110,27 @@ body {
   font-style: normal;
 }
 
+.header-contacts {
+  display: flex;
+  gap: 40px;
+}
+
 /* HERO */
 
 .order-button {
+  min-width: 169px;
+  height: 56px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
   background-color: #4d5ae5;
   margin-top: 48px;
+  border-radius: 4px;
 }
 
 .order-button:hover,
@@ -127,6 +152,15 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: #ffffff;
+  margin: 0 auto;
+  width: 496px;
+}
+
+.hero-container {
+}
+
+.hero-container-wrap {
+  flex-direction: wrap;
 }
 
 /* STUDIO */
@@ -163,6 +197,7 @@ body {
 .studio-list {
   margin-top: 120px;
   margin-bottom: 120px;
+  display: flex;
 }
 
 /* SERVICES */
