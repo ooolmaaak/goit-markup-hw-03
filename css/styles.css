@@ -26,17 +26,15 @@ body {
   position: absolute;
   width: 1px;
   height: 1px;
-  margin: -1px;
-  border: 0;
   padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
+  margin: -1px;
   overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 /* HEADER */
-
 .header {
   background-color: #ffffff;
   display: flex;
@@ -53,7 +51,8 @@ body {
 .nav {
   display: flex;
   align-items: center;
-  padding: 24px 0px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .nav-link {
@@ -199,9 +198,12 @@ body {
   color: #434455;
 }
 
-.studio-item {
+.studio {
   padding-top: 120px;
   padding-bottom: 120px;
+}
+
+.studio-item {
 }
 
 .studio-list {
