@@ -8,10 +8,11 @@ body {
 }
 
 .container {
-  width: 1200px;
+  /* width: 1200px; */
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
+  width: 1158px;
 }
 
 .link {
@@ -47,7 +48,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1158px;
+  /* width: 1158px; */
 }
 
 .nav {
@@ -273,9 +274,9 @@ body {
   padding-bottom: 32px;
   padding-left: 16px;
   padding-right: 16px;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center; */
 }
 
 .item-text .item-subltitle {
